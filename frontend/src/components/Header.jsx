@@ -6,7 +6,7 @@ const Header = () => {
 
   const navLinkClass = ({isActive}) =>
     `px-2 py-2 flex items-center  ${
-      isActive ? "text-[#FF6D00]" : "text-gray-800 hover:text-orange-500"
+      isActive ? "text-orange-600" : "text-gray-800 hover:text-orange-500"
     } transition-colors duration-200`;
 
   return (
@@ -42,7 +42,7 @@ const Header = () => {
           </NavLink>
         </li>
         <li className="flex justify-center items-center mt-2 md:mt-0 md:ml-2">
-          <button className="bg-[#5A189A] hover:bg-[#4A148C] text-white rounded px-4 py-1 w-full">
+          <button className="bg-[#5A189A] hover:bg-[#4A148C] md:border-[2px] md:border-solid md:border-purple-900 md:hover:text-white md:font-medium md:bg-white md:text-purple-900 text-white rounded px-4 py-1 w-full">
             Sign-In
           </button>
         </li>

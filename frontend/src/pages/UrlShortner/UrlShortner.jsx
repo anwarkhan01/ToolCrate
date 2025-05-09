@@ -54,11 +54,11 @@ const UrlShortner = () => {
             value={url}
             onChange={handleUrlChange}
             placeholder="Paste your URL here"
-            className="flex-1 border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#5A189A]"
+            className="flex-1 border border-gray-300 rounded-lg w-[70%] md:w-[80%] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#5A189A]"
           />
           <button
             type="submit"
-            className="bg-[#5A189A] hover:bg-[#4a0e87] text-white px-5 py-2 rounded-lg text-sm transition duration-300 cursor-pointer"
+            className="bg-[#5A189A] hover:bg-[#4a0e87] px-3 py-2 text-white w-[30%] md:w-[20%] rounded-lg text-sm transition duration-300 cursor-pointer"
           >
             Shorten
           </button>
@@ -74,11 +74,11 @@ const UrlShortner = () => {
               ref={shortUrlRef}
               placeholder="Shorten URL"
               readOnly
-              className="flex-1 border border-gray-300 rounded-lg px-4 py-2 text-sm "
+              className="flex-1 border border-gray-300 w-[70%] md:w-[80%] rounded-lg px-3 py-2 text-sm "
             />
             <button
               type="submit"
-              className="bg-[#5A189A] hover:bg-[#4a0e87] text-white px-5 py-2 rounded-lg text-sm transition duration-300 cursor-pointer "
+              className="bg-[#5A189A] hover:bg-[#4a0e87] w-[30%] md:w-[20%] text-white px-3 py-2 rounded-lg text-sm transition duration-300 cursor-pointer "
               onClick={handleCopy}
             >
               Copy

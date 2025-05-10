@@ -11,7 +11,9 @@ const Header = () => {
 
   return (
     <div className="w-full h-16 px-4 flex justify-between items-center bg-white shadow-md sticky top-0 z-50">
-      <div className="text-[#FF6D00] text-2xl font-bold">ToolCrate</div>
+      <div className="text-[#FF6D00] text-2xl font-bold">
+        Tool<span className="text-purple-700">Crate</span>
+      </div>
 
       <button
         className="md:hidden text-2xl text-gray-800"

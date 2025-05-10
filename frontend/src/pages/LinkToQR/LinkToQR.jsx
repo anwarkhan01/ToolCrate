@@ -31,7 +31,7 @@ const LinkToQR = () => {
   };
   return (
     <div className="min-h-[calc(100vh-64px)] w-full flex items-center justify-center bg-gray-100 px-4">
-      <div className="w-full max-w-md bg-white shadow-lg rounded-xl md:p-8 p-5  flex-col gap-2">
+      <div className="w-full max-w-xl bg-white shadow-lg rounded-xl md:p-8 p-5  flex-col gap-2">
         <h2 className="text-2xl font-semibold text-center text-[#5A189A] mb-6">
           Link To QR Code
         </h2>
@@ -45,7 +45,7 @@ const LinkToQR = () => {
           />
           <button
             type="submit"
-            className="bg-[#5A189A] hover:bg-[#4a0e87] px-3 py-2 text-white w-[30%] md:w-[20%] rounded-lg text-sm transition duration-300 cursor-pointer"
+            className="bg-[#5A189A] hover:bg-[#4a0e87] text-white w-[30%] md:w-[20%] md:px-2 md:py-3 px-2 py-1 rounded-lg text-sm transition duration-300 cursor-pointer"
           >
             Generate QR
           </button>

@@ -44,7 +44,7 @@ const UrlShortner = () => {
   };
   return (
     <div className="min-h-[calc(100vh-64px)] w-full flex items-center justify-center bg-gray-100 px-4">
-      <div className="w-full max-w-md bg-white shadow-lg rounded-xl md:p-8 p-5  flex-col gap-2">
+      <div className="w-full max-w-xl bg-white shadow-lg rounded-xl md:p-8 p-5  flex-col gap-2">
         <h2 className="text-2xl font-semibold text-center text-[#5A189A] mb-6">
           URL Shortener
         </h2>
@@ -54,7 +54,7 @@ const UrlShortner = () => {
             value={url}
             onChange={handleUrlChange}
             placeholder="Paste your URL here"
-            className="flex-1 border border-gray-300 rounded-lg w-[70%] md:w-[80%] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#5A189A]"
+            className="flex-1 border border-gray-300 rounded-lg w-[70%] md:w-[80%] px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#5A189A]"
           />
           <button
             type="submit"
